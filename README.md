@@ -149,4 +149,8 @@ Steps to follow -
     Playbook automation
     
     All tasks executed successfully — Green across the board.
+    <img width="1351" height="755" alt="Screenshot 2025-11-11 102843" src="https://github.com/user-attachments/assets/032052aa-ad62-4878-8253-1b59fe6fa896" />
+
+    
+
 
