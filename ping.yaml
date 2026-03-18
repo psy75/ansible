@@ -3,4 +3,4 @@
   tasks:
     - name: ping
       ansible.builtin.ping: 
-      msg: "Succusfully pinged"
+        msg: "Succusfully pinged"
