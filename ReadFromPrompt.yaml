@@ -1,0 +1,12 @@
+- name: test1
+  hosts: target_nodes
+  vars_prompt:
+  - name: NAME
+    prompt: Enter the Name
+    private: false
+  - name: ROLE
+    prompt: Enter the ROLE
+  tasks:
+  - name: tasks
+    ansible.builtin.debug:
+      msg: "Hi, My name is {{NAME}} and im working as {{ROLE}}"
