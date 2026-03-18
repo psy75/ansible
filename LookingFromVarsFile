@@ -1,0 +1,14 @@
+- name: vars
+  hosts: target_nodes
+  vars_files: 
+  - vars.yaml
+  tasks:
+  - name: test
+    ansible.builtin.debug:
+      msg: "1 Hi, Im {{NAME}}, working as {{ROLE}}"
+  - name: test
+    ansible.builtin.debug:
+      msg: "2 Hi, Im {{NAME}}, working as {{ROLE}}"
+  - name: test
+    ansible.builtin.debug:
+      msg: "3 Hi, Im {{NAME}}, working as {{ROLE}}"
