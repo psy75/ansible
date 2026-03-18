@@ -1,0 +1,9 @@
+- name: vars
+  hosts: target_nodes
+  vars:
+    NAME: Surya
+    ROLE: DevOps Engineer
+  tasks:
+  - name: test
+    ansible.builtin.debug:
+      msg: "Hi, Im {{NAME}}, working as {{ROLE}}"

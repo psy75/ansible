@@ -1,6 +1,0 @@
-- name: vars
-  hosts: target_nodes
-  tasks:
-  - name: test
-    ansible.builtin.debug:
-      msg: "Hi, Im Surya, working as devops enginner"
