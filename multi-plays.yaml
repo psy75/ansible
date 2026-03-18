@@ -1,0 +1,13 @@
+- name: Playbook1
+  hosts: target_nodes
+  tasks:
+  - name: Sample1
+    ansible.builtin.debug:
+      msg: "Hello world!"
+
+- name: Playbook2
+  hosts: target_nodes
+  tasks:
+  - name: Sample2
+    ansible.builtin.debug:
+      msg: "Hello again!"
